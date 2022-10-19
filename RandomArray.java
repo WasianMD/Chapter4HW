@@ -9,7 +9,8 @@ public class RandomArray {
                 System.out.println("Enter a number between 1 and 50 and see what number you get: ");
                 int index = input.nextInt();
                 System.out.println(random[lastIndex]);
-            }catch(ArrayIndexOutOfBoundsException e){
+            }
+        catch(ArrayIndexOutOfBoundsException e){
                 System.out.println(e);
                 e.printStackTrace();
                 input.nextLine();
