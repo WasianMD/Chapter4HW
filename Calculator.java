@@ -11,7 +11,8 @@ public class Calculator {
                 System.out.println("Enter the second integer: ");
                 int numberTwo = input.nextInt();
                 calculation = true;
-            } catch (Exception e) {
+            }
+            catch (Exception e) {
                 System.out.println(e + " has ocurred. Please try again. Please enter non-negative integers only.");
                 input.nextLine();
             }
